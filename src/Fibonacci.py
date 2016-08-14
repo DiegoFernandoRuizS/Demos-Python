@@ -7,7 +7,7 @@ def fib(n):
        return fib(n - 1) + fib(n - 2)
 
 n = int(input("Hasta que valor quiere Fibonacci? "))
-b=1
+b=2
 while b < n:
     c = fib(b)
     if c<n:
