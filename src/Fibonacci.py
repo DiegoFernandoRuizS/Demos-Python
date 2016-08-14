@@ -10,7 +10,10 @@ n = int(input("Hasta que valor quiere Fibonacci? "))
 b=1
 while b < n:
     c = fib(b)
-    print(c)
-    b=b+1
+    if c<n:
+        print(c)
+        b=b+1
+    else:
+        break
 
 print("Gracias");
